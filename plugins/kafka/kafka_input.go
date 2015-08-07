@@ -26,7 +26,7 @@ import (
 
 	"github.com/mozilla-services/heka/message"
 	"github.com/mozilla-services/heka/pipeline"
-	"github.com/rafrombrc/sarama"
+	"github.com/mblinn/sarama"
 )
 
 type KafkaInputConfig struct {
